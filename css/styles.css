@@ -90,7 +90,7 @@ header {
 }
 
 #rsvp {
-    background: #ffdc73;
+    background: #ffdc73 url("../images/diamond-pattern.jpg") center bottom no-repeat;;
 }
 
 h3 {
