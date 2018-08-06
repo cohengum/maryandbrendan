@@ -1,0 +1,27 @@
+/*
+Font: 		Cera CY
+Style: 		Black
+URL: 		https://www.youworkforthem.com/font/T5658/cera-cy
+Foundry: 	type me! fonts
+Foundry: 	https://www.youworkforthem.com/designer/248/type-me-fonts
+Copyright:	Copyright (c) 2015 by Jakob Runge, under exclusive license to type me! fonts. All rights reserved.
+Version: 	17
+Created:	April 03, 2015
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'CeraCY-Black';
+	src: url('cera-cy-black.eot');
+	src: url('cera-cy-black.eot?#iefix') format('embedded-opentype'),
+             url('cera-cy-black.woff2') format('woff2'),
+	     url('cera-cy-black.woff') format('woff'),
+	     url('cera-cy-black.ttf') format('truetype'),
+	     url('cera-cy-black.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
