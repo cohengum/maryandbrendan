@@ -90,7 +90,9 @@ header {
 }
 
 #rsvp {
-    background: #ffdc73 url("../images/diamond-pattern.jpg") center bottom no-repeat;;
+    background: #ffdc73 url("../images/diamond-pattern.jpg") no-repeat;
+    background-size: 553px 479px;
+    background-position: 80% bottom;
 }
 
 h3 {
