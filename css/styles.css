@@ -34,17 +34,15 @@ body {
 }
 
 a {
-    color: #ffdc73;
+    color: #5e3851;
+    text-decoration: underline;
 }
 
 a:hover {
     color: #e9c559;
 }
 
-a.purple-link {
-    color: #5e3851;
-    text-decoration: underline;
-}
+
 
 .hero-banner {
     background: #5e3750 url("../images/maryandbrendan-hero-banner.jpg") center center no-repeat;
@@ -113,10 +111,19 @@ h3 {
     margin-bottom: 20px;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-decoration: none;
+}
+
 .rsvp-button {
     background: #5e3851;
     padding: 10px 50px;
     border-color: #5e3851;
+}
+
+.rsvp-button:hover {
+   background: #522e46; 
+   border-color: #522e46;
 }
 
 span.time {
