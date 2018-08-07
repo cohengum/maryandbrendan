@@ -47,7 +47,7 @@ a:hover {
 .hero-banner {
     background: #5e3750 url("../images/maryandbrendan-hero-banner.jpg") center center no-repeat;
     background-size: 200% auto;
-    height: 800px;
+    height: 400px;
 
 }
 
@@ -56,15 +56,17 @@ footer {
 }
 
 header {
-        padding: 330px 0 100px;
+        padding: 100px 0 100px;
 }
 
 .hero-banner h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
-    color: #fff; 
-    font-size: 120px;
+    color: #fff;
+    font-size: 90px;
     letter-spacing: -3px;
+    line-height: 80px;
+    margin-bottom: 20px;
 }
 
 .lead {
@@ -87,10 +89,18 @@ header {
     margin: 0 auto;
 }
 
+.mary-brendan-photo {
+    max-width: auto;
+}
+
 #rsvp {
     background: #ffdc73 url("../images/diamond-pattern.jpg") no-repeat;
-    background-size: 553px 479px;
+    background-size: 513px 444px;
     background-position: 80% bottom;
+}
+
+section {
+    padding: 100px 0;
 }
 
 h3 {
@@ -104,11 +114,16 @@ h3 {
 .rsvp-form {
     display: block;
     border-top: 2px solid #e9c559;
-    border-bottom: 2px solid #e9c559;
+    border-bottom: 3px solid #e9c559;
     padding-bottom: 20px;
     padding-top: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.rsvp-title {
+  border-top: 3px solid #e9c559;
+  padding-top: 30px;  
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -143,3 +158,91 @@ span.time {
     padding-right: .6rem;
     padding-left: .6rem;
 }
+
+.mary-brendan-photo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+.hero-banner {
+    height: 400px;
+
+}
+
+header {
+    padding: 80px 0 100px;
+}
+
+.hero-banner h1 {
+    line-height: 100px;
+    margin-bottom: 25px;
+
+}
+
+section {
+    padding: 80px 0;
+}
+
+  }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+.hero-banner {
+    height: 600px;
+}
+
+header {
+    padding: 250px 0 100px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.hero-banner h1 {
+    line-height: 120%;
+    font-size: 120px;
+    margin-bottom: 0px;
+}
+
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+.hero-banner {
+    height: 750px;
+
+}
+
+header {
+    padding: 330px 0 100px;
+}
+
+section {
+    padding: 140px 0;
+}
+
+.hero-banner h1 {
+    line-height: 120%;
+    font-size: 120px;
+    margin-bottom: 10px;
+}
+
+
+
+ }
