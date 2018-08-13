@@ -28,6 +28,18 @@ font-weight: normal;
 font-style: normal;
 }
 
+@font-face {
+font-family: 'cera-pro-medium';
+src: url('../fonts/cera-pro-medium.eot');
+src: url('../fonts/cera-pro-medium.eot?#iefix') format('embedded-opentype'),
+url('../fonts/cera-pro-medium.woff2') format('woff2'),
+url('../fonts/cera-pro-medium.woff') format('woff'),
+url('../fonts/cera-pro-medium.ttf') format('truetype'),
+url('../fonts/cera-pro-medium.svg#ywftsvg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
 
 body {
     font-family: 'cera-pro', sans-serif;
@@ -36,17 +48,23 @@ body {
 a {
     color: #5e3851;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 a:hover {
-    color: #e9c559;
+    color: #7f4c6d;
+}
+
+strong {
+    font-family: 'cera-pro-medium', sans-serif;
+    font-weight: normal;
 }
 
 
 
 .hero-banner {
     background: #5e3750 url("../images/maryandbrendan-hero-banner.jpg") center center no-repeat;
-    background-size: 200% auto;
+    background-size: 250% auto;
     height: 400px;
 
 }
@@ -56,7 +74,7 @@ footer {
 }
 
 header {
-        padding: 100px 0 100px;
+        padding: 80px 0 100px;
 }
 
 .hero-banner h1 {
@@ -65,8 +83,8 @@ header {
     color: #fff;
     font-size: 90px;
     letter-spacing: -3px;
-    line-height: 80px;
-    margin-bottom: 20px;
+    line-height: 90px;
+    margin-bottom: 25px;
 }
 
 .lead {
@@ -93,8 +111,10 @@ header {
     max-width: auto;
 }
 
+/* url("../images/diamond-pattern.jpg") no-repeat */
+
 #rsvp {
-    background: #ffdc73 url("../images/diamond-pattern.jpg") no-repeat;
+    background: #ffdc73 ;
     background-size: 513px 444px;
     background-position: 80% bottom;
 }
@@ -113,8 +133,8 @@ h3 {
 
 .rsvp-form {
     display: block;
-    border-top: 2px solid #e9c559;
-    border-bottom: 3px solid #e9c559;
+    border-top: 2px solid #e4c66a;
+    border-bottom: 3px solid #e4c66a;
     padding-bottom: 20px;
     padding-top: 20px;
     margin-top: 20px;
@@ -122,7 +142,7 @@ h3 {
 }
 
 .rsvp-title {
-  border-top: 3px solid #e9c559;
+  border-top: 3px solid #e4c66a;
   padding-top: 30px;  
 }
 
@@ -181,25 +201,34 @@ header {
 }
 
 .hero-banner h1 {
-    line-height: 100px;
+    line-height: 90px;
+    font-size: 90px;
     margin-bottom: 25px;
 
+}
+
+.lead {
+    font-size: 1.2rem;
 }
 
 section {
     padding: 80px 0;
 }
 
+.hero-banner {
+    background-size: 200% auto;
+    }
+
   }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
 .hero-banner {
-    height: 600px;
+    height: 530px;
 }
 
 header {
-    padding: 250px 0 100px;
+    padding: 120px 0 100px;
 }
 
 section {
@@ -207,18 +236,27 @@ section {
 }
 
 .hero-banner h1 {
-    line-height: 120%;
+    line-height: 100%;
     font-size: 120px;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
 }
 
+.lead {
+    font-size: 1.25rem;
+}
 
  }
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
 
+.hero-banner {
+    height: 530px;
+}
 
+header {
+    padding: 210px 0 100px;
+    }
 
 }
 
