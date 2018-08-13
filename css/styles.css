@@ -119,6 +119,10 @@ header {
    background-color: #2d232a;
 }
 
+.bg-light {
+    background: #f0f2f3 !important;
+}
+
 #rsvp {
     background: #ffdc73 url("../images/gold-texture.jpg") no-repeat;
     background-size: 100% auto;
