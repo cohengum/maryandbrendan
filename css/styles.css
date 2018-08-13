@@ -125,7 +125,7 @@ header {
 
 #rsvp {
     background: #ffdc73 url("../images/gold-texture.jpg") no-repeat;
-    background-size: 100% auto;
+    background-size: auto 110%;
     background-position: center center;
 }
 
@@ -253,6 +253,10 @@ section {
 
 .lead {
     font-size: 1.25rem;
+}
+
+#rsvp {
+    background-size: auto 100%;
 }
 
  }
