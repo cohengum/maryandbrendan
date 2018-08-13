@@ -111,12 +111,18 @@ header {
     max-width: auto;
 }
 
-/* url("../images/diamond-pattern.jpg") no-repeat */
+.gifts-section {
+    background: #5e3851; 
+}
+
+.modal-backdrop {
+   background-color: #2d232a;
+}
 
 #rsvp {
-    background: #ffdc73 ;
-    background-size: 513px 444px;
-    background-position: 80% bottom;
+    background: #ffdc73 url("../images/gold-texture.jpg") no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
 }
 
 section {
