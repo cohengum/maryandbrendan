@@ -282,7 +282,7 @@ header {
 }
 
 header {
-    padding: 330px 0 100px;
+    padding: 320px 0 100px;
 }
 
 section {
@@ -294,6 +294,13 @@ section {
     font-size: 120px;
     margin-bottom: 10px;
 }
+
+#rsvp {
+    background-size: auto 120%;
+    background-position: center center;
+}
+
+
 
 
 
