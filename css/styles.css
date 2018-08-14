@@ -60,7 +60,20 @@ strong {
     font-weight: normal;
 }
 
+.bg-purple {
+    background: #5e3750;
+}
 
+.content h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 90px;
+    letter-spacing: -3px;
+    line-height: 90px;
+    margin-bottom: 25px;
+    text-align: center;
+}
 
 .hero-banner {
     background: #5e3750 url("../images/maryandbrendan-hero-banner.jpg") center center no-repeat;
@@ -197,6 +210,30 @@ span.time {
 .container {
     padding-right: 35px;
     padding-left: 35px;
+}
+
+.content {
+        width: 500px;
+        height: 300px;
+
+        position:absolute; /*it can be fixed too*/
+        left:0; right:0;
+        top:0; bottom:0;
+        margin:auto;
+
+        /*this to solve "the content will not be cut when the window is smaller than the content": */
+        max-width:100%;
+        max-height:100%;
+        overflow:auto;
+    }
+
+.content p {
+    color: #fff;
+    text-align: center;
+}
+
+.content a {
+    color: #fadd82;
 }
 
 /* Small devices (landscape phones, 576px and up) */
